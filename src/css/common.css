@@ -109,6 +109,10 @@ h1 {
   border-radius: 4px;
 }
 
+.task_thre_input:hover {
+  border-color: black;
+}
+
 /* four  */
 
 .login-form {
@@ -223,6 +227,10 @@ h1 {
   letter-spacing: 0.04em;
   color: #2e2f42;
   margin-right: 0 auto;
+}
+
+.contr-numb:hover {
+  border-color: black;
 }
 
 .contr-created {
