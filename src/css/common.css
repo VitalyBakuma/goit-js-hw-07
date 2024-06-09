@@ -108,3 +108,46 @@ h1 {
   border: 1px solid #808080;
   border-radius: 4px;
 }
+
+/* four  */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.four-input {
+  margin-top: 8px;
+}
+
+.lab-four {
+}
+.lab-input-four {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding-left: 16px;
+}
+.form-four {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.task-four-submit-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  border-color: transparent;
+}
