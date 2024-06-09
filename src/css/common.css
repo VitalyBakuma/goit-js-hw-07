@@ -1,6 +1,13 @@
 * {
   box-sizing: border-box;
 }
+ul,
+ol {
+  list-style-type: none;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
 
 body {
   margin: 16px;
@@ -21,8 +28,11 @@ body {
   background-color: #f6f6fe;
 }
 .item li {
+  border: 1px solid #808080;
+  border-radius: 4px;
   width: 360px;
   height: 40px;
+  gap: 8px;
 }
 
 #categories {
