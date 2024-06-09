@@ -20,6 +20,15 @@ body {
   line-height: 1.5;
 }
 /* one */
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
 .item {
   border-radius: 8px;
   padding: 16px;
@@ -32,6 +41,19 @@ body {
   border-radius: 4px;
   width: 360px;
   height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+}
+
+.item ul {
+  display: flex;
+  flex-direction: column;
   gap: 8px;
 }
 
@@ -60,4 +82,29 @@ body {
   display: block;
   width: 360px;
   height: 300px;
+}
+
+/* thre */
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+#name-input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.task_thre_input {
+  padding: 8px 140px 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
 }
